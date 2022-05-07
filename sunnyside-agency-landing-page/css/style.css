@@ -1,0 +1,41 @@
+.header-background{
+    max-width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+}
+.header-content{
+    display: flex;
+    z-index: 2;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.title{
+    font-family: 'Fraunces', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+    color: white;
+}
+.menu-option{
+    font-family: 'Barlow', sans-serif;
+    font-weight:bolder;
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+body{
+    padding:0%;
+    margin:0px;
+}
+.header-wrapper{
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
